@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/dictionary.svg" type="image/x-icon">
+
+  <title>Англо-Русский Словарь</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+<h1>Англо-Русский Словарь</h1>
+<form id="dictionaryForm">
+  <h2>Введите слово на английском:</h2>
+  <input type="text" id="enInp">
+  <h2>Введите слово на русском:</h2>
+  <input type="text" id="ruInp">
+</form>
+<button class="btn" type="button" id="addWordBtn">Добавить слово</button>
+
+<div class="words">
+<div class="word-list">
+  <h2>Список слов</h2>
+  <ul id="wordList"></ul>
+</div>
+
+<div class="learned-list">
+  <h2>Выученные слова</h2>
+  <ul id="learnedList"></ul>
+</div>
+</div>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
+

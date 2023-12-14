@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: url("./img/books.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+  border-bottom: 1px solid #eeeeee1a;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: 2px solid #535050;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 225, 0.3);
+  color: rgb(58, 5, 58);
+  font-family: inherit;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 225, 0.6);
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#dictionaryForm {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-list,
+.learned-list {
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+  text-align: center;
+  color: #300859;
+}
+
+input {
+    padding: 7px 15px;
+    border: none;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #300859;
+}
+
+.words {
+  display: flex;
+  justify-content: space-between;
+}
+.learned-list,
+.word-list,
+form {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.word-list {
+  width: 40%;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.learned-list {
+  width: 40%;
+  max-height: 500px;
+  overflow-y: scroll;
+}
